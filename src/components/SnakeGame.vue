@@ -1,7 +1,9 @@
 <template>
 <body>
-    <input type="text" class="hide username" name="username" id="username" placeholder="Enter your name" autocomplete="off">
   <div id="container"> 
+    <div id = "inputUser">
+    <input type="text" class="hide username" name="username" id="username" placeholder="Enter your name" autocomplete="off">
+    </div>
   </div>
   
 </body>
@@ -20,11 +22,15 @@ export default {
 ::placeholder {
   color: #d2e603;
 }
+.container {
+  position: relative;
+}
 .username {
-  position: absolute;
+  position: relative;
   visibility: visible;
-  left: 300px;
-  top: 150px;
+
+  right: 220px;
+  top: 180px;
   text-align: center;
   background-color: #81b214;
   color: #d2e603;

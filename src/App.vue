@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <snake-game/> 
+    <snake-game></snake-game> 
   </div>
 </template>
 
